@@ -1,10 +1,11 @@
 {
   "name": "assignment-01",
+  "type" : "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -13,6 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^24.0.15",
-    "typescript": "^5.8.3"
+    "@vitest/ui": "^3.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   }
 }
