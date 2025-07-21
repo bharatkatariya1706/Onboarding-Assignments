@@ -1,6 +1,6 @@
 // Import the Item class (adjust the path based on your folder structure)
 import { describe, it, expect } from "vitest"; // Or use from 'jest' if using Jest
-import { Item } from "./../src/model/item"; 
+import { Item } from "./../src/model/item.js"; 
 
 describe("Item Class", () => {
   it("should set and get item name correctly", () => {
